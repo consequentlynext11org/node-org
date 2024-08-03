@@ -23,9 +23,9 @@ jobs:
         run: |
              if [ "$RUNNER_OS" == "Linux" ]; then
                   echo 'linux'
-                  sleep 5
+                  sleep 1m
              else
                   echo 'macos'
-                  sleep 5
+                  sleep 1m
              fi
         shell: bash
